@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Calgary Tech Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <nav>
+    <a href="#about">About Me</a>
+    <a href="#projects">My Projects</a>
+    <a href="#contact">Contact</a>
+    <button id="theme-toggle" class="theme-btn">🌙 Dark Mode</button>
+  </nav>
+
+  <main>
+    <h1>Welcome to my Calgary Tech Portfolio.</h1>
+    <p>Junior Front-End Developer passionate about clean HTML, CSS, and building accessible web experiences.</p>
+
+    <section id="about" class="about-box">
+      <h2>About Me</h2>
+      <p>Hi! I'm a Software Development Diploma graduate based in Calgary, Alberta. I love turning ideas into clean, user-friendly websites and bringing empathy and clear communication to front-end development.</p>
+      
+      <div class="skills-list">
+        <span>HTML5</span>
+        <span>CSS3</span>
+        <span>JavaScript</span>
+        <span>Responsive Design</span>
+        <span>GitHub</span>
+      </div>
+    </section>
+
+    <div id="projects" class="projects-grid">
+      <div class="card">
+        <h3>Tech Connect Event Card</h3>
+        <p>An accessible event invitation built with semantic HTML lists, images, and external links.</p>
+        <a href="#">View Code</a>
+      </div>
+
+      <div class="card">
+        <h3>Chic Geek Job Alert Form</h3>
+        <p>A user-friendly lead capture form featuring email validation and role dropdown menus.</p>
+        <a href="#">View Code</a>
+      </div>
+
+      <div class="card">
+        <h3>Neo Financial Profile</h3>
+        <p>A multi-section startup landing page organized with semantic sections and clean dividers.</p>
+        <a href="#">View Code</a>
+      </div>
+    </div>
+
+    <section id="contact" class="contact-box">
+      <h2>Get In Touch</h2>
+      <p>Looking for a junior web developer or content specialist in Calgary? Send me a quick message below!</p>
+
+      <form class="contact-form">
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Your Email Address" required>
+        <textarea rows="4" placeholder="Your Message..." required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+
+      <p id="form-status" class="status-msg"></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>Built in Calgary, AB • 2026</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
